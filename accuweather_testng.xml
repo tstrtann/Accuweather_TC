@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AccuWeather Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="AccuWeather_Test">
+        <classes>
+            <class name="AccuWeather_Test.AccuWeatherFeedback">
+                <methods>
+                    <include name="LandingPage"/>
+                    <include name="FeedbackPage"/>
+<!--                    <include name="AssertEmail"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
